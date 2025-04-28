@@ -30,6 +30,7 @@ Challenges in High-Frequency Price Prediction:
 **Latency Constraints** – Predictions must be made in real-time to be actionable for trading strategies.
 
 **Feature Engineering** – Extracting relevant features from vast amounts of financial time-series data is critical for accuracy.
+
 ### Data  Preprocessing
 
 The dataset trades.csv is from Kaggle and can be downloaded here.
@@ -42,9 +43,13 @@ Clean the data by handling missing values and outliers.
 Normalize features to ensure consistent scaling.
 
 ### Feature Engineering
+
 Lagged Prices (past price movements to capture trends)
+
 Rolling Averages (short-term trends)
+
 Volatility Measures (standard deviation of prices)
+
 Order Flow Imbalance (difference between buy and sell orders)
 
 
